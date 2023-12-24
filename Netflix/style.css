@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 200%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+select {
+    font-size: larger;
+    font-weight: 500;
+    padding: 9px 21px 7px 2px;
+    background-color: transparent;
+    border-radius: 11px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    color: white;
+}
+
+button {
+    font-size: larger;
+    font-weight: 700;
+    padding: 9px;
+    border-radius: 11px;
+    background-color: red;
+    color: white;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    margin-top: 100px;
+    padding: 0 30px;
+}
+
+.hero :nth-child(1) {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: -6px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+}
+
+.heroine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    gap: 6px;
+}
+
+.email {
+    padding: 20px 75px 17px 5px;
+    border-radius: 3px;
+    font-weight: 700;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.go {
+    padding: 17px;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+}
+
+.seperation {
+    background-color: rgb(105, 104, 104);
+    height: 7px;
+    width: auto;
+}
+.bodyfirst{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    margin-bottom: 100px;
+}
+.imgfirst{
+    position: relative;
+}
+.imgfirst video{
+    position: absolute;
+    right: 81px;
+    top: 97px;
+}
+.imgfirst img{
+    position: relative;
+    z-index: 10;
+}
+.bodysec {
+    color: white;
+    display: flex;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.secondmatter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.secondmatter :nth-child(1) {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.secondmatter :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.firstmatter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.firstmatter :nth-child(1) {
+    font-size: 45px;
+    font-weight: 700;
+}
+.firstmatter :nth-child(2){
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.bodythird {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.imgtwo {
+    position: relative;
+}
+
+.imgtwo video {
+    position: absolute;
+    right: 130px;
+    top: 27px;
+    width: 386px;
+    height: 273px;
+}
+
+.thirdmatter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.imgtwo img {
+    position: relative;
+    z-index: 10;
+}
+
+.thirdmatter :nth-child(1) {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.thirdmatter :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+}
+.bodyfour{
+    display: flex;
+    color: white;
+    gap: 150px;
+}
+.fourmatter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.fourmatter :nth-child(1){
+    font-size: 45px;
+    font-weight: 700;
+}
+.fourmatter :nth-child(2){
+    font-size: 25px;
+    font-weight: 400;
+}
+.freq{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.freq{
+    padding: 34px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-bottom: 40px;
+}
+.subquestions{
+    display: flex;
+    color: white;
+    background-color:rgb(45,45,45);
+    padding: 24px;
+    justify-content: space-between;
+    margin: 10px;
+    max-width: 60vw;
+    margin-left: 300px;
+}
+.last{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.heroinetwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    gap: 6px;
+    margin-bottom: 80px;
+}
+footer {
+    max-width: 90vw;
+    padding: 75px 0;
+}
+
+.footer-item{
+    align-items: center;
+}
+
